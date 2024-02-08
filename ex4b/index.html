@@ -73,7 +73,8 @@
 				var [t1,u1] = tempCal(t,u);
 
 			   if (validate(t)){
-			   alert("Temperature is "+t1+" in "+u1);
+				let result =document.getElementById("result");
+				result.innerText = "Temperature is "+t1+" in "+u1;
 			   }
 
 			});
